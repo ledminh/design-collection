@@ -3,8 +3,8 @@ import Head from "next/head";
 import Image from 'next/image';
 
 import Navbar from '../Components/Navbar.js';
+import Intro from '../Components/Intro.js';
 
-import manTestimonialImg from '../imgs/man-testimonial.jpg';
 import aCupAwardImg from '../imgs/cup-award.png';
 
 import galleryPic1Img from '../imgs/gallery-pic-1.jpg';
@@ -21,29 +21,8 @@ export default function Home() {
       <div className="container border-2 border-red-900 mx-auto">
         <header>
           <Navbar />
-          
-          <div>
-            <div>
-              <h1>Boost</h1>
-              <h1>your profits</h1>
-              <h4>from short-term and vacation rentals</h4>
-            </div>
-            
-            <figure>
-              <Image
-                src={manTestimonialImg}
-                alt="A man smiling"
-                width="100%"
-                />
-                <h5>This inn is so much more comfortable and lovely.</h5>
-                <figcaption>
-                  <cite>
-                    <span>JamesB</span>
-                    <span>GM-Reddoorz</span>
-                  </cite>
-                </figcaption>                  
-            </figure>
-          </div>
+          <Intro  />
+
         </header>
         <main>
           <div>

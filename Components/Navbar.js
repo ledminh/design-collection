@@ -1,7 +1,7 @@
 export default function Navbar() {
 
     return (
-        <nav className="flex flex-wrap justify-between items-end">
+        <nav className="flex flex-wrap justify-between items-end mb-6">
             <Logo />
             <Menu />
             <LetTalk />    
